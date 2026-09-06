@@ -1,40 +1,25 @@
 # A. Srinidhi – Personal Portfolio
 
-A responsive personal portfolio website built with **Flutter and Dart** for a UI internal exam.
+A responsive personal portfolio website built using **Flutter and Dart** for a UI internal exam.
 
 ## Pages
+
 - Home Page
 - About Me Page
 - My Projects Page
 
+## About Me
+
+An aspiring Computer Science Engineering student interested in **machine learning, speech and audio processing, and data-driven systems**.
+
 ## Projects
-1. Content Moderation System
-2. Weather Forecast App
-3. MoviePick – Similar Movies Finder using Machine Learning
 
-## Run locally
+### 1. Content Moderation System
+A Python-based intelligent tool for video content filtering and analysis.
 
-```bash
-flutter pub get
-flutter run -d chrome
-```
+### 2. Weather Forecast App
+A dynamic application built using Node.js and Java to display real-time weather data.
 
-## Build the website
+### 3. MoviePick – Similar Movies Finder using Machine Learning
+Built a system that analyzes movie features and recommends similar movies using **TF-IDF and cosine similarity** based on content similarity.
 
-```bash
-flutter build web --release
-```
-
-The production website will be generated inside:
-
-```text
-build/web
-```
-
-## GitHub Pages deployment
-
-After pushing the project to GitHub, the Flutter web build can be deployed using GitHub Pages or another static hosting service.
-
-## Personal photo
-
-The current home page uses an `AS` initials avatar so the project works without any extra assets. To use a real profile photo, add the image under `assets/images/` and update `pubspec.yaml` and the `Avatar` widget in `lib/main.dart`.
